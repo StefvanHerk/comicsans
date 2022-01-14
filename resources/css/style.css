@@ -1,0 +1,48 @@
+#titel {
+  color:red;
+}
+a:hover{
+  color: red;
+}
+.kop{
+  font-weight: bold;
+}
+a {
+  color: blue;
+}
+* {
+  background-color: yellow;
+  font-family: cursive, Serif;
+  color: purple;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+*:hover{
+  color: blue;
+}
+ul{
+  list-style: none;
+}
+
+img {
+  max-height: 200px;
+  transition: all 400ms ease-out;
+}
+
+img:hover {
+  max-height: 500px;
+  width: auto;
+  transition: all 400ms ease;
+}
+
+button {
+  color: blue;
+  background-color: white;
+  transition: all 0.5s ease-in 0s;
+}
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
